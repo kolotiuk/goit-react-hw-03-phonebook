@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  border: 2px solid black;
+}
+.formLabel {
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.forminput {
+  margin-bottom: 15px;
+}
+.btn {
+  width: 100px;
+  background-color: rgb(237, 237, 237);
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}
