@@ -67,6 +67,7 @@ export default class PhonePage extends Component {
         <Form handleAddContact={handleAddContact} />
 
         <h2>Contacts</h2>
+        
         <Filter value={filter} onChange={handleChangeFilter} />
         <ContactsList contacts={visible} handleDelete={handleDelete} />
       </>
